@@ -1,0 +1,72 @@
+html {
+  background: var(--theme-background);
+  color: var(--theme-color);
+  transition: all ease-in-out 400ms;
+}
+
+.label {
+  background: var(--theme-background);
+  color: var(--theme-color);
+  transition: all ease-in-out 400ms;
+}
+.box {
+  background: var(--theme-background);
+  color: var(--theme-color);
+  transition: all ease-in-out 400ms;
+}
+
+.box .form-control {
+  background: var(--theme-background);
+  transition: all ease-in-out 400ms;
+  color: var(--theme-color);
+}
+
+.box .form-control:hover:empty {
+  background: var(--theme-background2);
+  color: var(--theme-color);
+}
+
+.box .form-control:empty {
+  background: var(--theme-placeholder);
+  color: var(--theme-color);
+}
+
+.box .form-control:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px var(--theme-placeholder) inset;
+  -webkit-text-fill-color: var(--theme-color);
+}
+
+.border-form {
+  border: solid var(--theme-border) 1px;
+}
+
+.box .btn-bg:hover {
+  background-color: var(--theme-background2);
+  transition: all ease-in-out 200ms;
+}
+
+.box .form-check-input:hover {
+  background-color: rgb(226, 226, 226);
+  transition: all ease-in-out 400ms;
+}
+
+.box .form-check-input:hover:checked {
+  background-color: rgb(4, 66, 146);
+  transition: all ease-in-out 400ms;
+}
+
+.box .list-group-item {
+  background: var(--theme-placeholder);
+  transition: all ease-in-out 400ms;
+  color: var(--theme-color);
+}
+
+.box .list-group-item:hover {
+  background: var(--theme-background2);
+  transition: all ease-in-out 400ms;
+  color: var(--theme-color);
+}
+
+.box .table {
+  color: var(--theme-color);
+}

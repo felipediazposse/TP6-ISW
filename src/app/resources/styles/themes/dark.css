@@ -1,0 +1,7 @@
+:root[theme='dark'] {
+  --theme-background: #1a1a1a;
+  --theme-background2: rgb(30, 30, 34);
+  --theme-color: rgba(255, 255, 255, 0.75);
+  --theme-border: rgb(49, 49, 49);
+  --theme-placeholder: rgb(24, 23, 26);
+}

@@ -1,0 +1,7 @@
+:root {
+  --theme-background: white;
+  --theme-background2: rgb(216, 216, 226);
+  --theme-color: black;
+  --theme-border: rgb(214, 214, 214);
+  --theme-placeholder: rgb(241, 241, 243);
+}

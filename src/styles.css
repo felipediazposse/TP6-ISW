@@ -1,0 +1,54 @@
+/* Add application styles & imports to this file! */
+
+@import './app/resources/styles/themes/default.css';
+@import './app/resources/styles/themes/dark.css';
+@import './app/resources/styles/base.css';
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+/*INICIO: CSS DE TOGGLE SWITCH*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transform: 4s;
+  border-radius: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 25px;
+  width: 25px;
+  left: 2.5px;
+  bottom: 2.5px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 25px;
+}
+
+input:checked + .slider {
+  background-color: rgb(73, 82, 112);
+}
+
+input:checked + .slider::before {
+  transform: translateX(25px);
+}
+
+/*FIN: CSS DE TOGGLE SWITCH*/
