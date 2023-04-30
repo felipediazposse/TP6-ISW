@@ -32,7 +32,12 @@ const appRoutes: Routes = [
     CommonModule,
   ],
 
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    PedidoComercioAdheridoComponent,
+    ComerciosAdheridosComponent,
+    ConfirmacionPedidoComercioAdheridoComponent,
+  ],
   providers: [ThemeService, { provide: APP_BASE_HREF, useValue: '/' }],
   bootstrap: [AppComponent],
 })
